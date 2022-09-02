@@ -17,17 +17,19 @@ Las etapas tienen una fecha límite que serán designadas al comenzar tu academy
 
 ### Planificación de tiempo
 
+El tiempo que se invertirá en este academy son 3 meses por lo que repartiremos este tiempo en distintas fases cuyo tiempo máximo estará fijado.
+
 Para todos los **FRONTS**
 
 | Básicos| Problemas | Maquetación | Datos | Crypto App | Rudo news | Extra |
 | ----- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| 2 semanas  | 1 semana | 2 semanas | 2 semanas | 1 semana | 4 semanas | El tiempo sobrante |
+| 2 s.  | 1 s. | 2 s. | 2 s. | 1 s. | 4 s. | El tiempo sobrante |
 
 Para los **BACKS**
 
 | Básicos| Problemas | Creación de API | Managers / Pasarelas | Crypto App | Rudo news | Extra |
 | ----- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| 2 semanas  | 1 semana | 2 semanas | 2 semanas | 1 semana | 4 semanas | El tiempo sobrante |
+| 2 s. | 1 s. | 2 s. | 2 s. | 1 s. | 4 s. | El tiempo sobrante |
 
 ## 🏗 Aprendiendo los básicos
 
