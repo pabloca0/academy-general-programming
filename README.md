@@ -23,13 +23,13 @@ Para todos los **FRONTS**
 
 | Básicos| Problemas | Maquetación | Datos | Crypto App | Rudo news | Extra |
 | ----- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| 2 s.  | 1 s. | 2 s. | 2 s. | 1 s. | 4 s. | El tiempo sobrante |
+| 1 s.  | 1 s. | 2 s. | 3 s. | 1 s. | 4 s. | El tiempo sobrante |
 
 Para los **BACKS**
 
 | Básicos| Problemas | Creación de API | Managers / Pasarelas | Crypto App | Rudo news | Extra |
 | ----- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| 2 s. | 1 s. | 2 s. | 2 s. | 1 s. | 4 s. | El tiempo sobrante |
+| 1 s. | 1 s. | 2 s. | 3 s. | 1 s. | 4 s. | El tiempo sobrante |
 
 ## 🏗 Aprendiendo los básicos
 
@@ -79,7 +79,7 @@ Dependiendo del lenguaje designado los básicos los aportará una fuente diferen
 
 ## 🗞 Rudo News APP
 
-- Aplicación completa de Rudo
+- Aplicación completa de Rudo se desarrolla pantalla por pantalla y de forma incremental
 
 ## 🗞 Extra
 
