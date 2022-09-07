@@ -7,8 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ExercisesOptionalController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -45,7 +44,7 @@ class ViewController: UIViewController {
      Create a function that takes two optional integers as parameters and returns an optional integer. You should use one `guard` statement to unwrap both optional parameters, returning `nil` in the `guard` body if one or both of the parameters doesn't have a value. If both parameters can successfully be unwrapped, return their sum. Call the function once with non-`nil` numbers and once with at least one parameter being `nil`.
      */
     func test2(x: Int?, y: Int?) -> Int?{
-
+        return 0
     }
 
     /*:
@@ -70,7 +69,7 @@ class ViewController: UIViewController {
         lastNameTextField.text = lastName
         ageTextField.text = age
 
-        return
+        return User(firstName: "", lastName: "", age: "")
 
     }
 
@@ -85,7 +84,7 @@ class ViewController: UIViewController {
      Write a function that takes two optional integers and one non optional as parameters and returns the multiplication of the non optionals (you cannot use defaults).
      */
     func test5(x: Int?, y: Int?, number: Int) -> Int{
-        return
+        return 0
     }
 }
 
