@@ -20,7 +20,7 @@ class MainController: UIViewController {
         let storyboard = UIStoryboard(name: "Exercises", bundle: nil)
         let optionalVC = storyboard.instantiateViewController(withIdentifier: "ExercisesController") as! ExercisesController
         sections.append(Section(name: "Exercises Optional", viewController: optionalVC, type: .optional))
-
+        sections.append(Section(name: "Exercises Array", viewController: optionalVC, type: .array))        
     }
 }
 

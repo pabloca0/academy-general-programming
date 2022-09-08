@@ -18,7 +18,6 @@ class ExercisesController: UIViewController {
         // Do any additional setup after loading the view.
         switch screen {
         case .optional:
-
             let optional = Optional()
             logger.setLine(with: "--------- Exercise 1 ---------")
             logger.setLine(with: optional.test1(x: 1, y:2))
@@ -42,6 +41,17 @@ class ExercisesController: UIViewController {
         case .string:
             break
         case .array:
+            let array = Array()
+            logger.setLine(with: "--------- Exercise 1 ---------")
+            logger.setLine(with: array.test1(elements: [1,2,3,4,5,6], number: 2, position: 4))
+            logger.setLine(with: array.test1(elements: [1,2,3,4,5,6], number: 2, position: 8))
+            solutionTextView.text = logger.getAllLines()
+            logger.setLine(with: "--------- Exercise 2 ---------")
+            logger.setLine(with: array.test2(elements: [1,4,45,6,4,32,1], search: 2))
+            logger.setLine(with: array.test2(elements: [1,4,45,6,4,32,1], search: 45))
+            logger.setLine(with: "--------- Exercise 3 ---------")
+            logger.setLine(with: array.test3(elements: [2,3,5,7,2,56,6,7,2], search: 0))
+            logger.setLine(with: array.test3(elements: [2,3,5,7,2,56,6,7,2], search: 2))
             break
         case .classes:
             break

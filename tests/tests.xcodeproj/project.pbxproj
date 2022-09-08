@@ -19,6 +19,7 @@
 		C1E11CC028C9DB1A0062D9AD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CBF28C9DB1A0062D9AD /* Logger.swift */; };
 		C1E11CD628CA2B280062D9AD /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CD528CA2B280062D9AD /* Optional.swift */; };
 		C1E11CD928CA2D3D0062D9AD /* data+enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CD828CA2D3D0062D9AD /* data+enum.swift */; };
+		C1E11CDB28CA2EED0062D9AD /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CDA28CA2EED0062D9AD /* Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C1E11CBF28C9DB1A0062D9AD /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		C1E11CD528CA2B280062D9AD /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		C1E11CD828CA2D3D0062D9AD /* data+enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "data+enum.swift"; sourceTree = "<group>"; };
+		C1E11CDA28CA2EED0062D9AD /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				C1E11CD528CA2B280062D9AD /* Optional.swift */,
+				C1E11CDA28CA2EED0062D9AD /* Array.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E11CDB28CA2EED0062D9AD /* Array.swift in Sources */,
 				C1A255C028C91D1F00922597 /* MainTableViewController.swift in Sources */,
 				C1E11CC028C9DB1A0062D9AD /* Logger.swift in Sources */,
 				C1A255C428C91E0100922597 /* ExercisesController.swift in Sources */,

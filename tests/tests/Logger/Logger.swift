@@ -15,7 +15,7 @@ class Logger {
         } else if text is Double {
             lines.append("\(text as! Double)")
         } else {
-            lines.append("\(text)")
+            lines.append(String(describing: text))
         }
 
 
