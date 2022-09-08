@@ -32,4 +32,12 @@ class Array {
     func test3(elements: [Int], search: Int) -> Int {
         return 0
     }
+
+    /*:
+     ## Ejecicio 4
+     Crea una función que dado un conjunto de enteros los ordene de mayor a menor y devuelva el array resultante
+     */
+    func test4(elements: [Int]) -> [Int] {
+        return []
+    }
 }

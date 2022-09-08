@@ -31,7 +31,7 @@ class ExercisesController: UIViewController {
             logger.setLine(with: optional.test3(firstName: "Pedro", lastName: "Sanchez", age: "45"))
             logger.setLine(with: optional.test3(firstName: "Pedro", lastName: nil, age: "32"))
             logger.setLine(with: "--------- Exercise 4 ---------")
-            optional.test4()
+            logger.setLine(with: optional.test4())
             logger.setLine(with: "--------- Exercise 5 ---------")
             logger.setLine(with: optional.test5(x: 2, y: 2, number: 3))
             logger.setLine(with: optional.test5(x: nil, y: 2, number: 3))
@@ -52,6 +52,9 @@ class ExercisesController: UIViewController {
             logger.setLine(with: "--------- Exercise 3 ---------")
             logger.setLine(with: array.test3(elements: [2,3,5,7,2,56,6,7,2], search: 0))
             logger.setLine(with: array.test3(elements: [2,3,5,7,2,56,6,7,2], search: 2))
+            logger.setLine(with: "--------- Exercise 4 ---------")
+            logger.setLine(with: array.test4(elements: [2,3,5,7,2,56,6,7,2]))
+            logger.setLine(with: array.test4(elements: [29,23,3,3,3,2,56,6,7,2]))
             break
         case .classes:
             break

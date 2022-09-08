@@ -54,11 +54,11 @@ class Optional {
 
     /*:
      ## Ejecicio 4
-     Llama a la función que hay arriba y captura el valor que devuelve y haz un print de sus propiedades en caso de no ser nil
+     Llama a la función que hay arriba y captura el valor que devuelve y devuelve todas las propiedades concatenadas, en caso de ser nil devolver nil
 
     */
-    func test4(){
-
+    func test4() -> String? {
+        return ""
     }
 
     /*:
