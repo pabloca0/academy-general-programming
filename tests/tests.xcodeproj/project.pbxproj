@@ -17,6 +17,8 @@
 		C1A255C428C91E0100922597 /* ExercisesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A255C328C91E0100922597 /* ExercisesController.swift */; };
 		C1E11CBD28C9DAD00062D9AD /* Exercises.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E11CBC28C9DAD00062D9AD /* Exercises.storyboard */; };
 		C1E11CC028C9DB1A0062D9AD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CBF28C9DB1A0062D9AD /* Logger.swift */; };
+		C1E11CD628CA2B280062D9AD /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CD528CA2B280062D9AD /* Optional.swift */; };
+		C1E11CD928CA2D3D0062D9AD /* data+enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CD828CA2D3D0062D9AD /* data+enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C1A255C328C91E0100922597 /* ExercisesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesController.swift; sourceTree = "<group>"; };
 		C1E11CBC28C9DAD00062D9AD /* Exercises.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercises.storyboard; sourceTree = "<group>"; };
 		C1E11CBF28C9DB1A0062D9AD /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		C1E11CD528CA2B280062D9AD /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		C1E11CD828CA2D3D0062D9AD /* data+enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "data+enum.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +68,12 @@
 		C1A2554C28C787EA00922597 /* tests */ = {
 			isa = PBXGroup;
 			children = (
-				C1E11CBE28C9DB000062D9AD /* Logger */,
-				C1A255C228C91DEA00922597 /* Exercises */,
-				C1A255C128C91DDF00922597 /* Main */,
-				C1A2554D28C787EA00922597 /* AppDelegate.swift */,
-				C1A2554F28C787EA00922597 /* SceneDelegate.swift */,
-				C1A2555628C787EC00922597 /* Assets.xcassets */,
-				C1A2555828C787EC00922597 /* LaunchScreen.storyboard */,
+				C1E11CD428CA2B0C0062D9AD /* Exercises */,
 				C1A2555B28C787EC00922597 /* Info.plist */,
+				C1E11CD728CA2D2F0062D9AD /* Data */,
+				C1E11CD228CA12BF0062D9AD /* Resources */,
+				C1E11CCF28CA128B0062D9AD /* Presentation */,
+				C1E11CBE28C9DB000062D9AD /* Logger */,
 			);
 			path = tests;
 			sourceTree = "<group>";
@@ -101,6 +103,58 @@
 				C1E11CBF28C9DB1A0062D9AD /* Logger.swift */,
 			);
 			path = Logger;
+			sourceTree = "<group>";
+		};
+		C1E11CCF28CA128B0062D9AD /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C1E11CD128CA12AE0062D9AD /* App */,
+				C1E11CD028CA12940062D9AD /* Modules */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C1E11CD028CA12940062D9AD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C1A255C228C91DEA00922597 /* Exercises */,
+				C1A255C128C91DDF00922597 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C1E11CD128CA12AE0062D9AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1A2554D28C787EA00922597 /* AppDelegate.swift */,
+				C1A2554F28C787EA00922597 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C1E11CD228CA12BF0062D9AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1A2555628C787EC00922597 /* Assets.xcassets */,
+				C1A2555828C787EC00922597 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1E11CD428CA2B0C0062D9AD /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				C1E11CD528CA2B280062D9AD /* Optional.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		C1E11CD728CA2D2F0062D9AD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C1E11CD828CA2D3D0062D9AD /* data+enum.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +233,8 @@
 				C1E11CC028C9DB1A0062D9AD /* Logger.swift in Sources */,
 				C1A255C428C91E0100922597 /* ExercisesController.swift in Sources */,
 				C1A2555228C787EA00922597 /* MainController.swift in Sources */,
+				C1E11CD928CA2D3D0062D9AD /* data+enum.swift in Sources */,
+				C1E11CD628CA2B280062D9AD /* Optional.swift in Sources */,
 				C1A2554E28C787EA00922597 /* AppDelegate.swift in Sources */,
 				C1A2555028C787EA00922597 /* SceneDelegate.swift in Sources */,
 			);

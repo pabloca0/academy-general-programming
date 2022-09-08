@@ -1,41 +1,14 @@
 //
-//  ViewController.swift
+//  optional.swift
 //  tests
 //
-//  Created by Fernando Salom Carratala on 6/9/22.
+//  Created by Fernando Salom Carratala on 8/9/22.
 //
 
+import Foundation
 import UIKit
 
-class ExercisesController: UIViewController {
-    @IBOutlet weak var solutionTextView: UITextView!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        let logger = Logger()
-        logger.setLine(with: "--------- Exercise 1 ---------")
-        logger.setLine(with: test1(x: 1, y:2))
-        logger.setLine(with: test1(x: -1, y:2))
-        logger.setLine(with: "--------- Exercise 2 ---------")
-        logger.setLine(with: test2(x: 1, y:2))
-        logger.setLine(with: test2(x: 1, y:nil))
-        logger.setLine(with: test2(x: nil, y:2))
-        logger.setLine(with: "--------- Exercise 3 ---------")
-        logger.setLine(with: test3(firstName: "Pedro", lastName: "Sanchez", age: nil))
-        logger.setLine(with: test3(firstName: "Pedro", lastName: "Sanchez", age: "45"))
-        logger.setLine(with: test3(firstName: "Pedro", lastName: nil, age: "32"))
-        logger.setLine(with: "--------- Exercise 4 ---------")
-        test4()
-        logger.setLine(with: "--------- Exercise 5 ---------")
-        logger.setLine(with: test5(x: 2, y: 2, number: 3))
-        logger.setLine(with: test5(x: nil, y: 2, number: 3))
-        logger.setLine(with: test5(x: 2, y: nil, number: 3))
-        logger.setLine(with: test5(x: nil, y: nil, number: 3))
-        solutionTextView.text = logger.getAllLines()
-    }
-
-
+class Optional {
     /*:
      ## Ejecicio 1
      Crea una función que calcule el area de un rectangulo con 2 parámetros de tipo Double. Sí le pasas un número negativo no debes calcular el area.
@@ -96,4 +69,3 @@ class ExercisesController: UIViewController {
         return 0
     }
 }
-

@@ -11,7 +11,7 @@
         <!--Exercises Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="ExercisesOptionalController" id="Y6W-OH-hqX" customClass="ExercisesController" customModule="tests" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExercisesController" id="Y6W-OH-hqX" customClass="ExercisesController" customModule="tests" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,21 +41,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="UOv-z7-hg5">
-            <objects>
-                <viewController id="OXC-WO-t6G" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="HFB-yt-Q4r">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="g0x-QC-KSx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cgO-Gu-GAZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1020" y="139"/>
         </scene>
     </scenes>
     <resources>

@@ -10,7 +10,15 @@ class Logger {
     var lines = [String]()
 
     func setLine(with text: Any) {
-        lines.append("\(text)")
+        if text is Int {
+            lines.append("\(text as! Int)")
+        } else if text is Double {
+            lines.append("\(text as! Double)")
+        } else {
+            lines.append("\(text)")
+        }
+
+
     }
 
     func getAllLines() -> String {

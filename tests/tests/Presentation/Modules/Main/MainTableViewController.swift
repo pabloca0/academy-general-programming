@@ -21,7 +21,11 @@ extension MainController: UITableViewDelegate, UITableViewDataSource{
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.navigationController?.pushViewController(sections[indexPath.row].viewController, animated: true)
+        guard let vc = sections[indexPath.row].viewController as? ExercisesController else {
+            return
+        }
+        vc.screen = sections[indexPath.row].type
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }
