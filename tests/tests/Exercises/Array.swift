@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class Array {
+class ArrayExercise {
     /*:
      ## Ejecicio 1
      Crea una función que dado un array de elementos inserte un número en una posición designada. Devuelve el nuevo array o nil en caso de que no sea posible
@@ -38,6 +38,14 @@ class Array {
      Crea una función que dado un conjunto de enteros los ordene de mayor a menor y devuelva el array resultante
      */
     func test4(elements: [Int]) -> [Int] {
+        return []
+    }
+
+    /*:
+     ## Ejecicio 5
+     Crea una función que dado un conjunto de String añada un nuevo elemento que se le pase y devuelva el nuevo array
+     */
+    func test5(elements: [String], element: String) -> [String] {
         return []
     }
 }

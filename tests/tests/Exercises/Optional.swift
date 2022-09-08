@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class Optional {
+class OptionalExercise {
     /*:
      ## Ejecicio 1
      Crea una función que calcule el area de un rectangulo con 2 parámetros de tipo Double. Sí le pasas un número negativo no debes calcular el area.
