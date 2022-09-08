@@ -10,17 +10,21 @@ import UIKit
 class MainController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
-    var sectionNames = [String]()
+    struct Section {
+        var name: String
+        var viewController: UIViewController
+    }
+    var sections = [Section]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
-        sectionNames.append("Exercises String")
-        sectionNames.append("Exercises Array")
-        sectionNames.append("Exercises Class")
-        sectionNames.append("Exercises Array + Class")
-        sectionNames.append("Exercises Optionals")
+
+        let storyboard = UIStoryboard(name: "Exercises", bundle: nil)
+        let optionalVC = storyboard.instantiateViewController(withIdentifier: "ExercisesController") as! ExercisesController
+        sections.append(Section(name: "Exercises Optional", viewController: optionalVC))
+
     }
 }
 

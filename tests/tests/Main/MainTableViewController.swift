@@ -10,18 +10,18 @@ import UIKit
 
 extension MainController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        sectionNames.count
+        sections.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .value1, reuseIdentifier: "Cell")
-        cell.textLabel?.text = sectionNames[indexPath.row]
+        cell.textLabel?.text = sections[indexPath.row].name
             cell.detailTextLabel?.text = ">"
             return cell
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        self.navigationController?.pushViewController(sections[indexPath.row].viewController, animated: true)
     }
 
 }
