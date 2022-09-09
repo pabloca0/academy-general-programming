@@ -33,5 +33,12 @@ class ObjectExercise {
      */
     func test3() {
     }
+
+    /*:
+     ## Ejecicio 4
+     Crea 2 personajes y ataca al otro personaje reduciendo su salud en función de tus puntos de ataque
+     */
+    func test4() {
+    }
 }
 
