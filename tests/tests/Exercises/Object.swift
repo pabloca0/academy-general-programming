@@ -40,5 +40,14 @@ class ObjectExercise {
      */
     func test4() {
     }
+
+    /*:
+     ## Ejecicio 5
+     Crea un objeto nave espacial que tenga estas caracteristicas: nombre, salud, tripulación
+     Crea un objeto caza que hereda de nave espacial y tenga como caracteristicas: nombre, disparos y una función disparar que vaya restando el número de disparos
+     Crea un objeto porta-cazas que hereda de nave espacial y tenga como características: núnero de cazas, disparos y una función disparar y lanzar cazas que vaya reduciendose hasta que no queden cazas
+     */
+    func test5() {
+    }
 }
 
