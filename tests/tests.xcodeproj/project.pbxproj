@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C19EFDE228CB4623001615F7 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19EFDE128CB4623001615F7 /* Object.swift */; };
+		C19EFDE428CB4639001615F7 /* Array+Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19EFDE328CB4639001615F7 /* Array+Object.swift */; };
 		C1A2554E28C787EA00922597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2554D28C787EA00922597 /* AppDelegate.swift */; };
 		C1A2555028C787EA00922597 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2554F28C787EA00922597 /* SceneDelegate.swift */; };
 		C1A2555228C787EA00922597 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A2555128C787EA00922597 /* MainController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C19EFDE128CB4623001615F7 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		C19EFDE328CB4639001615F7 /* Array+Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Object.swift"; sourceTree = "<group>"; };
 		C1A2554A28C787EA00922597 /* tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A2554D28C787EA00922597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1A2554F28C787EA00922597 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				C1E11CD528CA2B280062D9AD /* Optional.swift */,
 				C1E11CDA28CA2EED0062D9AD /* Array.swift */,
 				C1C612AC28CA71240076536F /* String.swift */,
+				C19EFDE128CB4623001615F7 /* Object.swift */,
+				C19EFDE328CB4639001615F7 /* Array+Object.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -237,10 +243,12 @@
 			files = (
 				C1E11CDB28CA2EED0062D9AD /* Array.swift in Sources */,
 				C1A255C028C91D1F00922597 /* MainTableViewController.swift in Sources */,
+				C19EFDE428CB4639001615F7 /* Array+Object.swift in Sources */,
 				C1C612AD28CA71240076536F /* String.swift in Sources */,
 				C1E11CC028C9DB1A0062D9AD /* Logger.swift in Sources */,
 				C1A255C428C91E0100922597 /* ExercisesController.swift in Sources */,
 				C1A2555228C787EA00922597 /* MainController.swift in Sources */,
+				C19EFDE228CB4623001615F7 /* Object.swift in Sources */,
 				C1E11CD928CA2D3D0062D9AD /* data+enum.swift in Sources */,
 				C1E11CD628CA2B280062D9AD /* Optional.swift in Sources */,
 				C1A2554E28C787EA00922597 /* AppDelegate.swift in Sources */,
