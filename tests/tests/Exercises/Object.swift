@@ -49,5 +49,12 @@ class ObjectExercise {
      */
     func test5() {
     }
+
+    /*:
+     ## Ejecicio 6
+     Crea un objeto o objetos como consideres que defina animales como perro, pajaro o ballena
+     */
+    func test6() {
+    }
 }
 
