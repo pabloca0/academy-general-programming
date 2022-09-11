@@ -56,5 +56,12 @@ class ObjectExercise {
      */
     func test6() {
     }
+
+    /*:
+     ## Ejecicio 7
+     Crea un objeto o objetos como consideres que defina usuarios, administradores y superadministradores para una aplicación
+     */
+    func test7() {
+    }
 }
 
