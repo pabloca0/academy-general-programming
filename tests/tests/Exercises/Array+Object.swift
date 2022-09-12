@@ -34,9 +34,17 @@ class ArrayAndObjectExercise {
 
     /*:
      ## Ejecicio 4
-     Añade un atributo nuevo a la clase que sea needHelp que sera true cuando isApproved e isProgressing sean false. Este atributo se debe autocalcular al iniciar la clase o cambiar el valor de isApproved o isProgressing a false e imprime todos los alumnos suspendidos de cada clase que necesitan ayuda
+     Añade un atributo nuevo a la clase que sea needHelp que sera true cuando isApproved e isProgressing sean false. Este atributo se debe autocalcular  al iniciar la clase o cambiar el valor de isApproved o isProgressing a false e imprime todos los alumnos suspendidos de cada clase que necesitan ayuda
     */
     func test4() {
+
+    }
+
+    /*:
+     ## Ejecicio 5
+     Obten un array nuevo de alumnos suspendidos de todas las clases
+    */
+    func test5() {
 
     }
 }
