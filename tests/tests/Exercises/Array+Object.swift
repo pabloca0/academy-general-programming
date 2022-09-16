@@ -47,4 +47,12 @@ class ArrayAndObjectExercise {
     func test5() {
 
     }
+
+    /*:
+     ## Ejecicio 6
+     Obten un array nuevo de alumnos suspendidos de todas las clases
+    */
+    func test6() {
+
+    }
 }

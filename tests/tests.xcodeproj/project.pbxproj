@@ -23,6 +23,7 @@
 		C1E11CD628CA2B280062D9AD /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CD528CA2B280062D9AD /* Optional.swift */; };
 		C1E11CD928CA2D3D0062D9AD /* data+enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CD828CA2D3D0062D9AD /* data+enum.swift */; };
 		C1E11CDB28CA2EED0062D9AD /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E11CDA28CA2EED0062D9AD /* Array.swift */; };
+		C1FB95FF28D3ACC6005D31A0 /* SOLID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FB95FE28D3ACC6005D31A0 /* SOLID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		C1E11CD528CA2B280062D9AD /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		C1E11CD828CA2D3D0062D9AD /* data+enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "data+enum.swift"; sourceTree = "<group>"; };
 		C1E11CDA28CA2EED0062D9AD /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		C1FB95FE28D3ACC6005D31A0 /* SOLID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				C1C612AC28CA71240076536F /* String.swift */,
 				C19EFDE128CB4623001615F7 /* Object.swift */,
 				C19EFDE328CB4639001615F7 /* Array+Object.swift */,
+				C1FB95FE28D3ACC6005D31A0 /* SOLID.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				C1A255C428C91E0100922597 /* ExercisesController.swift in Sources */,
 				C1A2555228C787EA00922597 /* MainController.swift in Sources */,
 				C19EFDE228CB4623001615F7 /* Object.swift in Sources */,
+				C1FB95FF28D3ACC6005D31A0 /* SOLID.swift in Sources */,
 				C1E11CD928CA2D3D0062D9AD /* data+enum.swift in Sources */,
 				C1E11CD628CA2B280062D9AD /* Optional.swift in Sources */,
 				C1A2554E28C787EA00922597 /* AppDelegate.swift in Sources */,
