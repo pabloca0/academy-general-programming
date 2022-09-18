@@ -51,7 +51,7 @@ class ArrayExercise {
 
     /*:
      ## Ejecicio 6
-     Crea una función que dado un conjunto de Int devuelva el primer número entre 0 y 1000000 que no se encuentre dentro del array
+     Crea una función que dado un conjunto de Int devuelva el primer número entre 1 y 1000000 que no se encuentre dentro del array
      Ejemplo:
 
      [1,4,3,5,2] devuelve 6
