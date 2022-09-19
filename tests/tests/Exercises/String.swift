@@ -47,4 +47,15 @@ class StringExercise {
     func test5(text: String) -> Bool {
         return false
     }
+
+    /*:
+     ## Ejecicio 6
+     Comprueba que 2 textos son iguales independientemente de si son mayusculas o no
+     Ejemplo:
+     test6(text1: "Hola", text2: "hola") -> true
+     test6(text1: "MAR", text2: "mar") -> true
+     */
+    func test6(text1: String, text2: String) -> Bool {
+        return false
+    }
 }
