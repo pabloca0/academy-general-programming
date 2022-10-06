@@ -63,6 +63,11 @@ Dependiendo del lenguaje designado los básicos los aportará una fuente diferen
 - Class
 - Array
 
+** Ejercicios interesantes para IOS **
+- Uso de los opcionales para devolverlo en funciones por ejemplo
+- guard let y if let cuando y como usarlos
+- clases y structs que diferencias hay, cuando usar uno u otro 
+
 ## 🧑‍🎨 Maquetación UI 
 
 - Elementos de UI Basicos: Botones / Listas / Tabbar / Navegación
