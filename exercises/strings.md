@@ -62,7 +62,7 @@ Ejemplo:
 "MAR", "SDW") -> false
 ```
 
-![Rudo](../README/rudo.jpeg)
+![Rudo](../README/rudo.png)
 
 **Develop by rudo apps**
 

@@ -98,7 +98,7 @@ Una vez llegados a este punto vamos a desarrollar una serie de aplicaciones que 
 
 ## 🔖 Propiedad
 
-![Rudo](README/rudo.jpeg)
+![Rudo](README/rudo.png)
 
 **Develop by rudo apps**
 

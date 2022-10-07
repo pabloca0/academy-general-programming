@@ -68,7 +68,7 @@ Ejemplo:
 ancho 4 largo 4 alto 3 -> 48
 ```
 
-![Rudo](../README/rudo.jpeg)
+![Rudo](../README/rudo.png)
 
 **Develop by rudo apps**
 
