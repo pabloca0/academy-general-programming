@@ -1,6 +1,7 @@
 [![Academy](https://img.shields.io/badge/Languages-all-orange?style=flat-square)](https://img.shields.io/badge/Languages-all-orange?style=flat-square)
 
 [Ejercicios con números](exercises/numbers.md)
+
 [Ejercicios con cadenas de texto](exercises/strings.md)
 
 # ACADEMIA: Programación general
