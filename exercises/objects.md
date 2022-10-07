@@ -1,4 +1,4 @@
-# Cadena de texto
+# Objetos
 En esta sección vamos a tratar con cadenas de texto
 
 ## 📝 Ejercicios
