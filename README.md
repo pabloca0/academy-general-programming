@@ -4,6 +4,8 @@
 
 [Ejercicios con cadenas de texto](exercises/strings.md)
 
+[Ejercicios con objetos](exercises/objects.md)
+
 # ACADEMIA: Programación general
 Aprende a desarrollar con ejercicios practicos que te enseñan paso a paso y con dificultad gradual a desenvolverte mejor. 
 
