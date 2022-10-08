@@ -4,6 +4,8 @@
 
 [Ejercicios con cadenas de texto](exercises/strings.md)
 
+[Ejercicios con arrays](exercises/arrays.md)
+
 [Ejercicios con objetos](exercises/objects.md)
 
 # ACADEMIA: Programación general
