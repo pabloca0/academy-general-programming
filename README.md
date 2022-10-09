@@ -8,6 +8,8 @@
 
 [Ejercicios con objetos](exercises/objects.md)
 
+[Ejercicios con arrays y objetos](exercises/arraysandobjects.md)
+
 # ACADEMIA: Programación general
 Aprende a desarrollar con ejercicios practicos que te enseñan paso a paso y con dificultad gradual a desenvolverte mejor. 
 
