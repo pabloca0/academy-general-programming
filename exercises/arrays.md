@@ -1,5 +1,5 @@
 # Arrays
-En esta sección vamos a tratar con cadenas de texto
+En esta sección vamos a tratar con arrays
 
 ## 📝 Ejercicios
 [Insertar un número en una posición designada](#Ejercicio-1)

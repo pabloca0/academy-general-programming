@@ -1,5 +1,5 @@
 # Objetos
-En esta sección vamos a tratar con cadenas de texto
+En esta sección vamos a tratar con objetos
 
 ## 📝 Ejercicios
 [Crea una marca de coche](#Ejercicio-1)
