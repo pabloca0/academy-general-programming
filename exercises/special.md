@@ -1,14 +1,16 @@
 # Situaciones especiales
 En esta sección vamos a tratar con algunos problemas curiosos que han sucedido o que podrían suceder.
 
-## 📝 Ejercicios
-[Precarga con llamadas](#Ejercicio-1)
+## 📝 Situaciones
+[Precarga con llamadas](#Situacion-1)
 
-[Precarga con llamadas (secundario)](#Ejercicio-2)
+[Precarga con llamadas (secundario)](#Situacion-2)
 
-["Cartuchos" de pago](#Ejercicio-3)
+["Cartuchos" de pago](#Situacion-3)
 
-### Ejercicio 1
+[Modificación sin recargar llamada](#Situacion-4)
+
+### Situación 1
 Tenemos un array de X objetos crypto y debido a la situacion deben realizarse X llamadas de detalle para poder obtener la información adicional durante el proceso de carga de un splash. Estas llamadas pueden dar error. ¿Como realizarías la carga para tener el control en todo momento de cuando se han cargado toda la información para quitar el splash y entrar en la home?
 
 ```
@@ -32,10 +34,10 @@ Ejemplo:
 El detalle (http://larutaquesea.com/crypto/{id}) proporciona:  Precio, capitalización, sube o baja
 ```
 
-### Ejercicio 2
+### Situación 2
 Basandote en el ejercicio 1 pero suponiendo que la versión de ios es la 10 y hay cosas que no están disponibles por tanto deberás usar completion.
 
-### Ejercicio 3
+### Situación 3
 Crea un función **pay** que reciba un módulo de pago. Este módulo de pago definirá como se va a pagar (stripe, redsys, efectivo, contrareembolso ... etc) y tendrá como función pay que ejecute el pago (el pago es figurado basta con poner un print)
 
 Completa la información
@@ -48,6 +50,22 @@ func payMyOrder(with payment: ){
 payMyOrder(with: )
 ```
 
+### Situación 4
+Recogemos de una llamada información de un listado de usuarios en un UserDTO y lo mostramos en un tableview. Al pulsar vamos al detalle del usuario que nos permite modificar los datos y al volver queremos que el listado se actualice con la información modificada pero sin volver a llamar al servidor. ¿Cómo lo harías?
+```
+El array de UserDTO sería esta:
+[
+	User(name: "Fer", email:"fer@rudo.es"),
+	User(name: "Jesus", email:"jesus@rudo.es"),
+	User(name: "Antonio", email:"antonio@rudo.es"),
+	User(name: "Carlos", email:"carlos@rudo.es")
+]
+
+Queremos mandar al detalle:
+- User(name: "Fer", email:"fer@rudo.es") 
+Modificarlo: 
+- User(name: "Fer", email:"nuevomail@rudo.es")
+```
 
 ![Rudo](../README/rudo.png)
 
