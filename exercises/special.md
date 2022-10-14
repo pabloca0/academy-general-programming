@@ -55,16 +55,16 @@ Recogemos de una llamada información de un listado de usuarios en un UserDTO y 
 ```
 El array de UserDTO sería esta:
 [
-	User(name: "Fer", email:"fer@rudo.es"),
-	User(name: "Jesus", email:"jesus@rudo.es"),
-	User(name: "Antonio", email:"antonio@rudo.es"),
-	User(name: "Carlos", email:"carlos@rudo.es")
+	UserDTO(name: "Fer", email:"fer@rudo.es"),
+	UserDTO(name: "Jesus", email:"jesus@rudo.es"),
+	UserDTO(name: "Antonio", email:"antonio@rudo.es"),
+	UserDTO(name: "Carlos", email:"carlos@rudo.es")
 ]
 
 Queremos mandar al detalle:
-- User(name: "Fer", email:"fer@rudo.es") 
+- UserDTO(name: "Fer", email:"fer@rudo.es") 
 Modificarlo: 
-- User(name: "Fer", email:"nuevomail@rudo.es")
+- UserDTO(name: "Fer", email:"nuevomail@rudo.es")
 ```
 
 ![Rudo](../README/rudo.png)
