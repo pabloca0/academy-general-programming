@@ -12,6 +12,10 @@
 
 [Ejercicios especiales](exercises/special.md)
 
+# APPS
+
+[Marvel APP](test/marvel.md)
+
 # ACADEMIA: Programación general
 Aprende a desarrollar con ejercicios practicos que te enseñan paso a paso y con dificultad gradual a desenvolverte mejor. 
 
