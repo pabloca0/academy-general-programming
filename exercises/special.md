@@ -67,6 +67,15 @@ Modificarlo:
 - UserDTO(name: "Fer", email:"nuevomail@rudo.es")
 ```
 
+### Situación 5
+
+Descargate este ejercicio: [Ejercicios especiales](solve/special_5).
+
+Contexto. Este ejercicio carga una lista de crypto monedas al pulsar en una de las celdas carga un viewcontroller durante 2 segundos cambia el nombre de la moneda por "moneda cambiada" y recarga el listado de crypto monedas.
+
+Tienes que hacer que recargue el nombre cambiado en el listado una vez pulsado
+
+
 ![Rudo](../README/rudo.png)
 
 **Develop by rudo apps**
