@@ -2,13 +2,15 @@
 En esta sección vamos a tratar con algunos problemas curiosos que han sucedido o que podrían suceder.
 
 ## 📝 Situaciones
-[Precarga con llamadas](#Situacion-1)
+[Precarga con llamadas](#Situación-1)
 
-[Precarga con llamadas (secundario)](#Situacion-2)
+[Precarga con llamadas (secundario)](#Situación-2)
 
-["Cartuchos" de pago](#Situacion-3)
+["Cartuchos" de pago](#Situación-3)
 
-[Modificación sin recargar llamada](#Situacion-4)
+[Modificación sin recargar llamada](#Situación-4)
+
+[Soluciona este código](#Situación-5)
 
 ### Situación 1
 Tenemos un array de X objetos crypto y debido a la situacion deben realizarse X llamadas de detalle para poder obtener la información adicional durante el proceso de carga de un splash. Estas llamadas pueden dar error. ¿Como realizarías la carga para tener el control en todo momento de cuando se han cargado toda la información para quitar el splash y entrar en la home?
@@ -69,7 +71,7 @@ Modificarlo:
 
 ### Situación 5
 
-Descargate este ejercicio: [Ejercicios especiales](solve/special_5).
+Descargate este ejercicio: [Ejercicios especiales](../solve/special_5).
 
 Contexto. Este ejercicio carga una lista de crypto monedas al pulsar en una de las celdas carga un viewcontroller durante 2 segundos cambia el nombre de la moneda por "moneda cambiada" y recarga el listado de crypto monedas.
 
