@@ -1,4 +1,4 @@
-![Crypto app](../README/crypto.jpg)
+![Crypto app](../README/crypto.jpeg)
 
 # Crypto app
 
