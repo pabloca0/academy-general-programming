@@ -16,6 +16,8 @@
 
 # APPS
 
+[Crypto APP](test/crypto.md)
+
 [Rick and Morty APP](test/rickandmorty.md)
 
 [Marvel APP](test/marvel.md)
