@@ -8,6 +8,8 @@ En esta sección vamos a realizar ejercicios con llamadas y su gestión
 
 [Soluciona el ejercicio](#Ejercicio-3)
 
+[Solucion async await](#Ejercicio-4)
+
 
 ### Ejercicio 1
 
@@ -41,6 +43,16 @@ questionAndAnswer({ response in
     print("RESPONSE: \(response)") // print the response that arrives later
 })
 ```
+
+### Ejercicio 4
+
+Coge el ejercicio anterior y conviertelo a async await para que el output deseado sea:
+```
+> "Hey, how are you?"
+> "Responding takes a while..."
+> "RESPONSE: Hi, I'm doing really good."
+```
+
 
 ![Rudo](../README/rudo.png)
 
