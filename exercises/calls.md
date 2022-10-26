@@ -1,4 +1,4 @@
-# Llamadas
+# Sincrono / Asincrono
 En esta sección vamos a realizar ejercicios con llamadas y su gestión
 
 ## 📝 Ejercicios

@@ -12,7 +12,7 @@
 
 [Ejercicios con arrays y objetos](exercises/arraysandobjects.md)
 
-[Ejercicios con llamadas iOS](exercises/calls.md)
+[Ejercicios sincrono / asincrono iOS](exercises/calls.md)
 
 [Ejercicios especiales](exercises/special.md)
 
